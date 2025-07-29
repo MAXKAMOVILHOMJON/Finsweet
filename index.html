@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,85 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
+
 <body>
-    <header class="bg-sky-900 py-[20px] px-[20px]"  >
-         <div class="container mx-auto flex items-center justify-between">
+    <header class="bg-sky-900 py-[20px] px-[20px]">
+        <div class="container mx-auto flex items-center justify-between">
             <a href=""><img src="./img/home/Logo.png" alt=""></a>
-         
-         <ul class="flex items-center gap-[50px] mx-[44px] text-red-50">
-         <li><a href="#" class="text-lg">Home     </a>   </li>
-         <li><a href="./pages/About us.html" class="text-lg">About us </a>  </li>
-         <li><a href="./pages/Pricing.html" class="text-lg">Pricing  </a> </li>
-         <li><a href="/pages/Work.html" class="text-lg">Work     </a> </li>
-         <li><a href="./pages/BlogPage.html" class="text-lg">Blog     </a></li>
-         <li>
-            <button class="rounded-full border-4 border-indigo-500 w-32">
-                <a href="./pages/Contactus.html"> Contact us</a>
-             </button></li>
-        </ul>
-    </div>
+
+            <ul class="flex items-center gap-[50px] mx-[44px] text-red-50">
+                <li><a href="#" class="text-lg">Home </a> </li>
+                <li><a href="./pages/About us.html" class="text-lg">About us </a> </li>
+                <li><a href="./pages/Pricing.html" class="text-lg">Pricing </a> </li>
+                <li><a href="/pages/Work.html" class="text-lg">Work </a> </li>
+                <li><a href="./pages/BlogPage.html" class="text-lg">Blog </a></li>
+                <li>
+                    <button class="rounded-full border-4 border-indigo-500 w-32">
+                        <a href="./pages/Contactus.html"> Contact us</a>
+                    </button>
+                </li>
+            </ul>
+        </div>
     </header>
+
+    <main>
+        <section class="bg-sky-900 px-20px py-20px pb-[50px] pt-[100px]">
+            <div class="container mx-auto flex  items-center  ">
+                <div class="mx-[200px]">
+                    <h1 class="text-[48px]  font-bold  mb-[50px]">
+                        Building stellar <br> websites for early <br> startups
+                    </h1>
+                    <p class="line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod
+                        tempor incididunt.</p>
+
+                    <div class="flex gap-[20px] mt-[25px]">
+                        <button
+                            class="bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 rounded-full border-4 w-40">
+                            View our work
+                        </button>
+                        <p class="flex w-[300px]">View Pricing <img src="./img/home/Arrow 1.png " class="w-[30px]"
+                                alt=""></p>
+                    </div>
+                </div>
+                <img src="./img/home/Illustration.svg" alt="">
+            </div>
+        </section>
+        <section class="consectetur mx-auto px-[50px] pt-[50px]">
+            <div class="flex items-center justify-between px-[20px]">
+                <h1 class="text-[32px] font-bold">View our projects</h1>
+                <ul class="flex mt-100px gap-[10px]">
+                    <li>View More</li>
+                    <li class="pt-[5px]"><img src="/img/home/Arrow 1 (1).png" alt=""></li>
+                </ul>
+            </div>
+            <div class="flex">
+                 <div class=" bg-no-repeat bg-cover bg-[url(./img/home/hjb.png)] w-[800px] h-[600px]">
+                    <div class="bg-no-repeat bg-cover bg-[url(./img/home/Rec.png)] w-[400px] h-[600px] pt-[300px] px-[30px]">
+                        <h1 class="text-[32px]">Workhub office Webflow Webflow Design</h1>
+                        <p class="my-[20px]">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
+                        <a href="" class="flex">View project <img src="./img/home/Arrow 2.png" alt=""></a>
+                    </div>
+                </div>
+                <div>   
+                    <div class="bg-no-repeat bg-cover bg-[url(./img/home/ljn.png)] w-[400px] h-[300px] "> <div class="bg-no-repeat bg-cover bg-[url(./img/home/Rec.png)] w-[400px] h-[300px] pt-[150px] px-[80px] ">
+                        <h1  class="text-[32px]">Unisaas Website <br> Design</h1>
+                        <a href="" class="flex text-[yellow]">View project <img src="./img/home/Arrow 2.png" alt=""></a>
+                    </div>   
+                </div>
+                    <div class=""><img src="./img/home/lgf.png" alt="" width="400"></div>
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+
+    </main>
+
+
+
 </body>
+
 </html>
