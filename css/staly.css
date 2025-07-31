@@ -1,4 +1,4 @@
-.cdcd{
+/* .cdcd{
     color: yellow;
     
     background: #F4F6FC;
@@ -16,12 +16,12 @@ font-weight: 600;
 font-size: 38px;
 leading-trim: NONE;
 line-height: 56px;
-letter-spacing: 0%;
+/* letter-spacing: 0%; }*/ 
 
 
   
+@import "tailwindcss";
 
 
 
 
-}

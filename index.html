@@ -25,14 +25,19 @@
                         <a href="./pages/Contactus.html"> Contact us</a>
                     </button>
                 </li>
-
+              
 
             </ul>
+            <button  class="sm:hidden  size-10 rounded-full bg-gray-50">
+                <a href=""><img class="size-10 rounded-full bg-gray-50" src="https://png.pngtree.com/element_our/20190529/ourmid/pngtree-menu-free-button-png-image-image_1197358.jpg" 
+                    alt=""></a>
+            </button> 
+            
         </div>
     </header>
 
     <main class="container mx-auto">
-        <section class="bg-[#1C1E53] px-20px py-20px pb-[50px] pt-[100px]">
+        <section class="bg-[#1C1E53] px-[20px] py-[20px]  pb-[50px] pt-[100px]">
             <div class="container mx-auto flex  items-center  ">
                 <div class="mx-[200px]">
                     <h1 class="text-[48px] font-bold  mb-[50px]">
@@ -50,7 +55,9 @@
                                 alt=""></p>
                     </div>
                 </div>
-                <img src="./img/home/Illustration.svg" alt="">
+                <div class=" hidden  sm:flex  w-[500px] ">
+                    <img  src="./img/home/Illustration.svg" alt="" class="w-[500px]">
+                </div>
             </div>
         </section>
         <section class="container mx-auto px-[50px] pt-[50px]">
@@ -195,7 +202,18 @@
      </div>
   </div> 
 </footer>
-
+<div class="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ...">
+    <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" src="./img//home/Illustration.svg" alt="" />
+    <div class="space-y-2 text-center sm:text-left">
+      <div class="space-y-0.5">
+        <p class="text-lg font-semibold text-black">Erin Lindford</p>
+        <p class="font-medium text-gray-500">Product Engineer</p>
+      </div>
+      <button class="border-purple-200 text-purple-600 hover:border-transparent hover:bg-purple-600 hover:text-white active:bg-purple-700 ...">
+        Message
+      </button>
+    </div>
+  </div>
 
 </body>
 
